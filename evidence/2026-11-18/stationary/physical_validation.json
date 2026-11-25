@@ -1,0 +1,8 @@
+{
+  "user_confirmed_final_body_nose_up_deg": -1.8,
+  "imu_change_estimate_deg": -1.8432,
+  "horizontal_not_reached": true,
+  "active_attitude_control_enabled": false,
+  "additional_motion_sent": false,
+  "pending_choice": "Recenter actuator and manually lower rear wheel support to establish level with bidirectional travel reserve, or report height adjustment unavailable"
+}

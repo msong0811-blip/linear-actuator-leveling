@@ -1,0 +1,20 @@
+{
+  "rear_wheels_raised_by_user_before_run": true,
+  "initial_physical_nose_up_deg": -9.5,
+  "initial_approx_position_mm": -60,
+  "final_commanded_position_mm": -10,
+  "net_extension_mm": 50,
+  "local_bidirectional_probe_mm": 2,
+  "repeated_position_roll_difference_deg": 0.01006,
+  "initial_sensor_roll_deg": -7.57,
+  "final_settled_sensor_roll_deg": 0.0868,
+  "estimated_body_nose_up_deg_using_roll_change": -1.8432,
+  "estimate_assumes_sensor_roll_change_approximates_body_pitch_change": true,
+  "stopped_at_conservative_software_boundary": true,
+  "horizontal_attitude_achieved": false,
+  "active_attitude_maintenance_enabled": false,
+  "awaiting": "Physical spirit-level measurement at current position",
+  "serial_session_kept_open": true,
+  "idle_session_timeout_seconds": 1800,
+  "no_automatic_further_motion": true
+}

@@ -1,0 +1,7 @@
+﻿{
+    "body_nose_up_deg":  1.8,
+    "target_sensor_roll_deg":  1.84,
+    "commanded_position_mm":  -10,
+    "reason":  "User lowered rear wheels and measured nose-up 1.8 deg",
+    "sensor_roll_deg":  3.64
+}

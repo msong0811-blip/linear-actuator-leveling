@@ -1,0 +1,65 @@
+﻿{
+    "recorded_at_utc":  "2026-11-18T00:29:52.8747769Z",
+    "hardware":  {
+                     "enable_controlled":  false,
+                     "controller":  "Arduino UNO-compatible ATmega328P",
+                     "alarm_connected":  false,
+                     "motor":  "57-76 / 2 N.m integrated closed-loop stepper, exact manufacturer variant unconfirmed",
+                     "usb_serial":  "A5069RR4",
+                     "port":  "COM8",
+                     "step_pin":  2,
+                     "direction_pin":  3,
+                     "motor_revolutions_per_screw_revolution":  1,
+                     "screw_user_marking":  "SHU1610"
+                 },
+    "provisional_calibration":  {
+                                    "linear_mm_per_pulse":  0.00625,
+                                    "pulses_per_motor_revolution_basis":  "80 commanded pulses produced approximately 18 degrees by user observation",
+                                    "direction_history_note":  "One earlier DIR=1 trial was tentatively reported as -10 mm; identical repeat reported +10 mm. Historical observations preserved, no hardware fault cause established.",
+                                    "direction_low":  "retraction",
+                                    "pulses_per_linear_mm":  160,
+                                    "direction_high":  "extension",
+                                    "pulses_per_motor_revolution":  1600,
+                                    "mm_per_screw_revolution":  10,
+                                    "linear_calibration_basis":  "1600 commanded pulses produced user-reported +10 mm during DIR=1 recheck",
+                                    "accuracy":  "Nominal command conversion; no positioning accuracy, backlash or repeatability measurement"
+                                },
+    "coordinate":  {
+                       "zero":  "End position of actuator_direction_recheck_20261118, provisional relative reference only",
+                       "negative":  "retraction",
+                       "absolute_homing_performed":  false,
+                       "allowed_extension_mm":  null,
+                       "zero_run_ended_at_utc":  "2026-11-18T00:28:24.657520+00:00",
+                       "valid_only_if_no_subsequent_untracked_movement":  true,
+                       "allowed_retraction_mm":  null,
+                       "software_travel_limits_enforced":  false,
+                       "positive":  "extension"
+                   },
+    "recent_tests":  {
+                         "earlier_high_frequency_reset_cause":  "Unresolved; low-speed success does not establish high-speed reliability",
+                         "per_test_seconds":  10,
+                         "nominal_linear_speed_mm_s":  1,
+                         "frequency_hz":  160,
+                         "per_test_pulses":  1600,
+                         "low_speed_completed_without_unexpected_restart":  true,
+                         "nominal_motor_rpm":  6
+                     },
+    "suspension_context":  {
+                               "vehicle_body_mass_kg":  6,
+                               "imu_and_displacement_sensors":  "Not established",
+                               "body_mass_not_equal_to_actuator_axial_load":  true,
+                               "position_feedback_to_pc":  false,
+                               "springs":  false,
+                               "dampers":  false,
+                               "next_required":  "Usable extension/retraction distances from current position, linkage motion relationship, sensing and test objective before feedback suspension tests",
+                               "suspension":  "Double wishbone, actuator attached to lower arm"
+                           },
+    "evidence":  {
+                     "conflicting_measurement":  "../actuator_one_turn_measure_20261118/physical_observation.json",
+                     "repeated_measurement":  "../actuator_direction_recheck_20261118/physical_observation.json",
+                     "last_run_state":  "../actuator_direction_recheck_20261118/state.json",
+                     "extend_observation":  "../actuator_one_turn_extend_20261118/physical_observation.json",
+                     "retract_observation":  "../actuator_direction_probe_20261118/physical_observation.json"
+                 },
+    "hardware_actions_this_turn":  "None; observation and calibration records only"
+}

@@ -1,0 +1,14 @@
+{
+  "physical_reference_body_nose_up_deg": 1.8,
+  "reference_sensor_roll_deg": 3.64,
+  "target_sensor_roll_deg": 1.84,
+  "move_sequence_mm": [-15, -20, -21],
+  "total_retraction_mm": 11,
+  "final_commanded_position_mm": -21,
+  "latest_observed_sensor_roll_deg": 1.84,
+  "estimated_body_pitch_error_deg": 0,
+  "physical_level_confirmation_pending": true,
+  "motor_idle_confirmed": true,
+  "active_attitude_maintenance_enabled": false,
+  "next_action": "Await independent spirit-level confirmation before attitude maintenance"
+}

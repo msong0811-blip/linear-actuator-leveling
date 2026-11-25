@@ -1,0 +1,42 @@
+{
+  "pid": 7120,
+  "phase": "closed",
+  "active_control": false,
+  "physical_position_feedback": false,
+  "limits_mm": [
+    -41.8,
+    28.2
+  ],
+  "max_speed_mm_s": 20,
+  "angle_limit_deg": 7,
+  "reference_roll": 1.53,
+  "updated_at_utc": "2026-11-18T04:37:27.850460+00:00",
+  "board": {
+    "ref": 1,
+    "phase": 0,
+    "pos": -253,
+    "target": -253,
+    "pulses": 14
+  },
+  "imu": [
+    13.28,
+    -53.27,
+    -21.43
+  ],
+  "pause_reason": "Operator stop",
+  "error_deg": 11.76,
+  "pause_requested": false,
+  "calibration": {
+    "id": "6258ff19-276a-43a8-a70d-a1038ea389cb",
+    "retraction_mm": 40.0,
+    "extension_mm": 30.0,
+    "motor_power_on_confirmed": true,
+    "physically_level_confirmed": true
+  },
+  "duration_seconds": 600,
+  "elapsed_seconds": 137.2,
+  "filtered_rate_deg_s": -0.00050750048972311,
+  "requested_velocity_mm_s": 0,
+  "stop_reason": "'cp949' codec can't encode character '\\u0219' in position 40: illegal multibyte sequence",
+  "stop_acknowledged": true
+}

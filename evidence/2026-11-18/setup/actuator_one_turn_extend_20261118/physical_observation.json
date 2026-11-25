@@ -1,0 +1,10 @@
+﻿{
+    "recorded_at_utc":  "2026-11-18T00:24:44.1928759Z",
+    "source":  "User observation",
+    "dir_pin_level":  1,
+    "commanded_pulses":  1600,
+    "actuator_motion":  "extension",
+    "measured_linear_travel_mm":  null,
+    "approximate_shaft_angle_deg":  null,
+    "user_requested":  "Repeat once to measure travel"
+}

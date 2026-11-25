@@ -1,0 +1,28 @@
+{
+  "pid": 21232,
+  "port": "COM8",
+  "phase": "finished",
+  "motion_command_sent": true,
+  "commanded_pulses": 1600,
+  "commanded_hz": 160,
+  "dir_pin_level": 1,
+  "physical_direction": null,
+  "physical_rotation": null,
+  "physical_ppr": null,
+  "started_at_utc": "2026-11-18T00:27:47.865590+00:00",
+  "updated_at_utc": "2026-11-18T00:28:24.657520+00:00",
+  "last_board_status": {
+    "phase": 0,
+    "dir": 1,
+    "pulses": 1600,
+    "consumed": 1
+  },
+  "idle_check_passed": true,
+  "motion_command_at_utc": "2026-11-18T00:28:14.251610+00:00",
+  "completion_acknowledged": true,
+  "pulse_count_stable_after_completion": true,
+  "outcome": "1600_pulse_command_completed_physical_observation_pending",
+  "stop_acknowledged": true,
+  "final_step_idle": true,
+  "ended_at_utc": "2026-11-18T00:28:24.657520+00:00"
+}

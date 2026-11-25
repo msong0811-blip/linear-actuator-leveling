@@ -1,0 +1,10 @@
+﻿{
+    "recorded_at_utc":  "2026-11-18T00:29:52.8344736Z",
+    "source":  "User observation",
+    "commanded_pulses":  1600,
+    "dir_pin_level":  1,
+    "actuator_motion":  "extension",
+    "reported_length_change_mm":  10,
+    "instrument_and_measurement_uncertainty":  "Not specified",
+    "interpretation":  "Identical DIR=1 recheck reports +10 mm; earlier report of -10 mm remains in history, with cause not established"
+}

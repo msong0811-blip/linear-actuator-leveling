@@ -1,0 +1,12 @@
+﻿{
+    "recorded_at_utc":  "2026-11-18T00:22:16.2128091Z",
+    "source":  "User observation",
+    "commanded_pulses":  80,
+    "dir_pin_level":  0,
+    "actuator_motion":  "retraction",
+    "approximate_shaft_angle_deg":  18,
+    "inferred_pulses_per_rev":  1600,
+    "inference_status":  "Consistent with user-reported 1600 setting; approximate visual observation, not instrument measurement",
+    "lead_mm_per_rev":  null,
+    "measured_linear_travel_mm":  null
+}

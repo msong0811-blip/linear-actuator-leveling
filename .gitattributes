@@ -1,0 +1,4 @@
+src/** -text
+evidence/** -text
+README.md text eol=lf
+SHA256SUMS text eol=lf

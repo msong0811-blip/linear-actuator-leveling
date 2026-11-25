@@ -1,0 +1,37 @@
+﻿{
+    "recorded_at_utc":  "2026-11-18T00:35:02.1256905Z",
+    "source":  "User explicitly corrected 7.5 mm to 75 mm",
+    "supersedes":  "travel_limits_pending.json ambiguity",
+    "relative_reference":  "User-reported current maximum extension at 0 mm",
+    "coordinate_positive":  "extension",
+    "coordinate_negative":  "retraction",
+    "nominal_physical_interval_mm":  [
+                                         -80,
+                                         0
+                                     ],
+    "excluded_margin_at_each_end_mm":  5,
+    "working_interval_mm":  [
+                                -75,
+                                -5
+                            ],
+    "working_travel_mm":  70,
+    "midpoint_mm":  -40,
+    "pulses_per_mm":  160,
+    "working_interval_signed_pulses":  [
+                                           -12000,
+                                           -800
+                                       ],
+    "midpoint_signed_pulses":  -6400,
+    "current_reference_position_mm":  0,
+    "current_position_source":  "Last user statement; no movement commanded since",
+    "initial_entry_retraction_mm":  5,
+    "initial_entry_pulses":  800,
+    "direction_mapping":  {
+                              "dir_low":  "retraction",
+                              "dir_high":  "extension"
+                          },
+    "interpretation":  "Confirmed requested command limits, not a measurement of actual position or a physical limit-switch system",
+    "firmware_enforcement":  "Not yet implemented; installed firmware is still the bounded 1600-pulse one-shot test firmware",
+    "physical_position_feedback":  "Not connected through current PU/DR interface; external sensors pending user clarification",
+    "new_motion_commands_sent":  false
+}

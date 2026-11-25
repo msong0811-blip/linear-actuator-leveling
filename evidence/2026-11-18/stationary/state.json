@@ -1,0 +1,206 @@
+{
+  "pid": 3040,
+  "phase": "closed",
+  "motor_port": "COM8",
+  "imu_port": "COM9",
+  "started_at_utc": "2026-11-18T01:07:25.325091+00:00",
+  "physical_position_feedback": false,
+  "software_limits_mm": [
+    -70,
+    -10
+  ],
+  "plateaus": [
+    {
+      "position_mm": -58.0,
+      "mean_deg": [
+        -7.3456,
+        -2.2994999999999997,
+        -4.38
+      ],
+      "stddev_deg": [
+        0.01066666666666673,
+        0.0021904291355758563,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -60.0,
+      "mean_deg": [
+        -7.527,
+        -2.266,
+        -4.36
+      ],
+      "stddev_deg": [
+        0.011146408580454407,
+        0.004923659639173423,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -58.0,
+      "mean_deg": [
+        -7.335544554455446,
+        -2.29,
+        -4.39
+      ],
+      "stddev_deg": [
+        0.006241033171639395,
+        0.0,
+        0.0
+      ],
+      "samples": 101
+    },
+    {
+      "position_mm": -48.0,
+      "mean_deg": [
+        -5.9831,
+        -2.2792,
+        -4.4
+      ],
+      "stddev_deg": [
+        0.014048616884364032,
+        0.0027265992434428493,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -38.0,
+      "mean_deg": [
+        -4.5354,
+        -2.2645,
+        -4.39
+      ],
+      "stddev_deg": [
+        0.012586669234719837,
+        0.0050000000000001155,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -28.0,
+      "mean_deg": [
+        -2.9726,
+        -2.1921,
+        -4.41
+      ],
+      "stddev_deg": [
+        0.01667393780785455,
+        0.004093601807403418,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -18.0,
+      "mean_deg": [
+        -1.3184158415841585,
+        -1.74,
+        -4.29
+      ],
+      "stddev_deg": [
+        0.01623161564769983,
+        0.0,
+        0.0
+      ],
+      "samples": 101
+    },
+    {
+      "position_mm": -10.0,
+      "mean_deg": [
+        0.0868,
+        -1.3751,
+        -4.36
+      ],
+      "stddev_deg": [
+        0.005663992238766581,
+        0.008703302519588367,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -15.0,
+      "mean_deg": [
+        2.8646,
+        -0.91,
+        -4.38
+      ],
+      "stddev_deg": [
+        0.01816979400382445,
+        0.0,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -20.0,
+      "mean_deg": [
+        2.0695,
+        -0.9903,
+        -4.37
+      ],
+      "stddev_deg": [
+        0.017545035845739503,
+        0.0017144660799776543,
+        0.0
+      ],
+      "samples": 100
+    },
+    {
+      "position_mm": -21.0,
+      "mean_deg": [
+        1.8721,
+        -0.9998,
+        -4.36
+      ],
+      "stddev_deg": [
+        0.009774735523043726,
+        0.0014070529413628982,
+        0.0
+      ],
+      "samples": 100
+    }
+  ],
+  "updated_at_utc": "2026-11-18T01:18:52.555465+00:00",
+  "latest_imu": [
+    1.87,
+    -1.01,
+    -4.39
+  ],
+  "board": {
+    "ref": 1,
+    "phase": 0,
+    "pos": -3360,
+    "target": -3360,
+    "pulses": 160
+  },
+  "unreferenced_move_rejected": true,
+  "boot_limit_tests_passed": true,
+  "reference_basis": "User reports 20 mm remaining to retraction stop of original 80 mm stroke; approximate current -60 mm; rear wheels raised",
+  "initial_reference": {
+    "position_mm": -60,
+    "body_nose_up_deg": -9.5,
+    "source": "User confirmed nose-down 9.5 deg after raising rear wheels",
+    "mean_deg": [
+      -7.57,
+      -2.3028999999999997,
+      -4.38
+    ],
+    "stddev_deg": [
+      0.0,
+      0.004549007291342186,
+      0.0
+    ],
+    "samples": 200
+  },
+  "target_mm": -21,
+  "calibration_completed": true,
+  "last_level_move_id": "level_after_rear_lower_to_minus21",
+  "error": "User stop requested",
+  "stop_acknowledged": true,
+  "ended_at_utc": "2026-11-18T01:18:52.555465+00:00"
+}
