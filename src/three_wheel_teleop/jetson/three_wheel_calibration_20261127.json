@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "host": "revovi",
+  "created_at_utc": "2026-11-27T01:22:08.767668+00:00",
+  "serial_ports_by_id": {
+    "dynamixel": "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FTAKRM1V-if00-port0",
+    "imu": "/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0",
+    "arduino_actuator": "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A5069RR4-if00-port0"
+  },
+  "dynamixel_bus": {
+    "port_by_id": "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FTAKRM1V-if00-port0",
+    "protocol": 2.0,
+    "baud": 2000000,
+    "baud_code": 4,
+    "verified_ids": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "motors": {
+    "front_drive": {
+      "id": 1,
+      "model": "XD540-T270-R",
+      "model_number": 1101,
+      "operating_mode": 1,
+      "forward_sign": -1,
+      "positive_velocity_direction": "backward",
+      "negative_velocity_direction": "forward",
+      "direction_confirmed_by_user": true,
+      "wheel_diameter_mm": 260
+    },
+    "front_steering": {
+      "id": 2,
+      "model": "XD540-T270-R",
+      "model_number": 1101,
+      "operating_mode": 3,
+      "straight_goal_position": 3074,
+      "straight_observed_position": 3073,
+      "straight_confirmed_by_user": true,
+      "positive_position_offset_direction": "right",
+      "negative_position_offset_direction": "left",
+      "recommended_soft_limits_deg": [
+        -85,
+        85
+      ],
+      "recommended_soft_limits_ticks": [
+        2107,
+        4041
+      ],
+      "encoder_counts_per_motor_revolution": 4096,
+      "homing_offset_register": 0
+    },
+    "rear_right_drive": {
+      "id": 3,
+      "model": "XD540-T270-R",
+      "model_number": 1101,
+      "operating_mode": 1,
+      "forward_sign": -1,
+      "positive_velocity_direction": "backward",
+      "negative_velocity_direction": "forward",
+      "direction_confirmed_by_user": true,
+      "wheel_diameter_mm": 120
+    },
+    "rear_left_drive": {
+      "id": 4,
+      "model": "XD540-T270-R",
+      "model_number": 1101,
+      "operating_mode": 1,
+      "forward_sign": 1,
+      "positive_velocity_direction": "forward",
+      "negative_velocity_direction": "backward",
+      "direction_confirmed_by_user": true,
+      "wheel_diameter_mm": 120
+    }
+  },
+  "kinematics": {
+    "front_wheel_diameter_mm": 260,
+    "rear_wheel_diameter_mm": 120,
+    "rear_to_front_rpm_ratio": 2.166667,
+    "motor_velocity_limit_raw": 167,
+    "motor_velocity_limit_rpm": 38.24,
+    "max_matched_rear_rpm_at_limit": 38.24,
+    "max_matched_front_rpm_at_limit": 17.65
+  }
+}

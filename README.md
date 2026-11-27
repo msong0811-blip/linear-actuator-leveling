@@ -27,6 +27,7 @@
 |---|---|
 | [src/stationary](src/stationary) | 정지 시험용 호스트, 유지 제어기, 시험 계획, Arduino 스케치 |
 | [src/dynamic](src/dynamic) | 동적 제어기, 초기 보정, 호스트, 각도 표시창, Arduino 스케치 |
+| [src/three_wheel_teleop](src/three_wheel_teleop) | 3륜 차량 WASD 통합 제어 GUI, Jetson 워커, 고속(`~60 mm/s`)·진동 억제 능동 서스펜션 제어기 및 펌웨어 `v=10` (2026-11-27) |
 | [evidence/2026-11-18](evidence/2026-11-18) | 장치 보정 기록, 각 시험의 상태 파일과 전체 IMU·직렬 통신 로그 |
 | [SHA256SUMS](SHA256SUMS) | 수록한 원본 35개 파일의 SHA-256. `.gz` 파일은 압축을 푼 내용으로 대조한다. |
 
@@ -36,3 +37,4 @@
 python src/dynamic/controller.py
 python src/dynamic/calibration.py
 ```
+
